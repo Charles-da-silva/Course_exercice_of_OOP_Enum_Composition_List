@@ -28,7 +28,7 @@ public class Program
         for (int i = 0; i < contractNumber; i++)
         {
             System.Console.WriteLine($"Inform the data for the {i+1}º contract:");
-            Console.Write("Inform the date (mm/dd/yyy): ");
+            Console.Write("Inform the date (mm/dd/yyyy): ");
             DateTime date = DateTime.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.Write("Insert the value per hour (00.00): ");
